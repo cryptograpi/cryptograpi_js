@@ -1,0 +1,32 @@
+{
+  "name": "cryptograpi",
+  "version": "0.0.1",
+  "main": "index.js",
+  "module": "lib/index.esm.js",
+  "keywords": [
+    "cryptography",
+    "API"
+  ],
+  "description": "Cryptograpi's library for JS/TS based apps",
+  "author": {
+    "name": "Rodolfo Ruiz",
+    "email": "rodolfo@cryptograpi.com"
+  },
+  "homepage": "https://cryptograpi.com",
+  "repository": "https://github.com/cryptograpi/cryptograpi_ts",
+  "bugs": "https://github.com/cryptograpi/cryptograpi_ts/issues",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "dependencies": {
+    "rollup": "^2.56.3",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.2"
+  }
+}
